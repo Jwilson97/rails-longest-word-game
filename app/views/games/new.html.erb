@@ -1,2 +1,9 @@
 <h1>Longest Word Game</h1>
-
+<!-- inject ruby code to iterate each random letter -->
+<div class="letters-array">
+  <ul>
+    <% @letters_array.each do |letter| %>
+    <li><% letter %></li>
+    <% end %>
+  </ul>
+</div>
