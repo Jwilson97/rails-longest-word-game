@@ -7,3 +7,19 @@
     <% end %>
   </ul>
 </div>
+
+<form action="/score" method="post" class="form-group">
+  <div>
+    <label class="label" for="answer">What is the longest word you can find?</label>
+  </div>
+  <!-- <div>
+    <input type="text" name="answer" class="form-control">
+    <input type="submit" value="Play" class="btn btn-primary">
+  </div> -->
+  <div class="input-group mb-3" style="margin-left: 50px; width: 500px;">
+  <input type="text" class="form-control" placeholder="Longest word" aria-label="Longest word" aria-describedby="button-addon2">
+  <div class="input-group-append">
+    <button class="btn btn-primary" type="button" id="button-addon2">Play</button>
+  </div>
+</div>
+</form>
