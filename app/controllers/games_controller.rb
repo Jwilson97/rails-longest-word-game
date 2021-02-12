@@ -10,10 +10,10 @@ class GamesController < ApplicationController
   private
 
   def make_letters_array
-    aplphabet_array = ('a'..'z').to_a
+    alphabet_array = ('A'..'Z').to_a
     @letters_array = []
     10.times do
-      @letters_array << aplphabet_array.sample
+      @letters_array << alphabet_array.sample
     end
   end
 end
