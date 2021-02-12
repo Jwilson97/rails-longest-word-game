@@ -5,6 +5,8 @@ class GamesController < ApplicationController
   end
 
   def score
+    @letters_array = params[:letters_array]
+    @answer = params[:answer]
   end
 
   private
